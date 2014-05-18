@@ -9,8 +9,30 @@
     tools:context="com.hftprojekt.remapp.app.MainActivity">
 
     <TextView
+        android:id="@+id/labelHelloWorld"
         android:text="@string/hello_world"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/neuerEintrag"
+        android:id="@+id/btnHello"
+        android:onClick=""
+        android:layout_below="@+id/labelHelloWorld"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="159dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Einträge"
+        android:id="@+id/button"
+        android:layout_below="@+id/btnHello"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
